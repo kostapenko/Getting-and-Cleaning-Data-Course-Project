@@ -1,0 +1,23 @@
+This is an explanation how to **run_analysis.R** script works.
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+This script is a solution of Getting and Cleaning Data Course Project. To run it you should firstly install R - packages *dplyr* and *data.table*.
+
+This script does the following:
+
+- Merges the training and the test sets to create one data set.
+
+- Extracts only the measurements on the mean and standard deviation for each measurement.
+
+- Uses descriptive activity names to name the activities in the data set.
+
+- Appropriately labels the data set with descriptive variable names.
+
+- From the data set in previous step, creates a second, independent data set with the average of each variable for each activity and each subject.
+
+- Finally, it writes new data set into file *run_analysis.txt* which will be created into your work directory.
+
+To learn more about how exactly this script works, please look source code, where you can find comments that explain how the code works and what it does in more details. Explanation of variables from script *run_analysis.R* you can find into **Codebook.Rmd** file.
+
+

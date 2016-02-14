@@ -1,0 +1,17 @@
+This is an explanation of variables from script **run_analysis.R**.
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+- **data_location** - character variable with path of the work directory, where stored directory *getdata-projectfiles-UCI HAR Dataset* with unpacked data.
+
+- **locations** - character vector with paths of required files with data into directory *getdata-projectfiles-UCI HAR Dataset*.
+
+- **paths** - list with full paths of required files with data.
+
+- **train_data** - data frame with all the combined and processed data relating to the training set.
+
+- **test_data** - data frame with all the combined and processed data relating to the test set.
+
+- **data** -  union of **train_data** and **test_data**.
+
+- **final_data** - new independent data frame with the average of each variable for each activity and each subject which created from data frame **data**.
